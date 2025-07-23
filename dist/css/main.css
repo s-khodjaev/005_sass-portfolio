@@ -35,6 +35,21 @@ input[class^='btn-']:hover {
 .text-center {
   text-align: center; }
 
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background-color: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
 .py-1 {
   padding: 1rem 0; }
 
@@ -146,3 +161,36 @@ img {
       background-color: #f4f4f4; }
     #home-b .stats div:nth-child(even) {
       background-color: #ccc; }
+
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center; }
+  #home-c .process i {
+    background-color: #333;
+    border-radius: 50%;
+    padding: 1.5rem;
+    color: #ff00c8; }
+    #home-c .process i:hover {
+      cursor: pointer;
+      background-color: #ff00c8;
+      color: #333;
+      transform: scale(1.3);
+      transition: all 1s; }
+
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem; }
+    #main-footer .footer-content .social .fab {
+      cursor: pointer;
+      margin-right: 1rem;
+      font-size: 1.5rem; }
+      #main-footer .footer-content .social .fab:hover {
+        color: #ff00c8; }
