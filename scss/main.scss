@@ -2,6 +2,9 @@
 @import 'utilities';
 @import 'item_grid';
 
+// Import Media Queries
+@import 'media';
+
 // Global
 
 * {
@@ -360,6 +363,3 @@ img {
     }
   }
 }
-
-// Import Media Queries
-@import 'media';
